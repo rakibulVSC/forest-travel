@@ -1,13 +1,21 @@
 @media screen and (max-width:600px) {
-    nav ul{
-        display: none;
-    }
+   nav{
+    flex-direction: column;
+   }
+   nav ul{
+    flex-direction: column;
+    /* display: none; */
+    margin-left:30px;
+   }
+    
     .nav-head{
-        flex-direction: row;
+        flex-direction:row;
         width: 100%;
+        margin-left: 30px;
     }
     .grid1{
-       flex-direction: column;     
+       flex-direction: column; 
+       margin-left: -5px;    
     }
     .grid2{
         grid-template-columns: 1fr;
@@ -16,6 +24,7 @@
         grid-template-columns: 1fr;
       
     }
+  
     .newsletter{
        flex-direction:column;     
     }
@@ -70,7 +79,10 @@
   .main-header{
     margin-left:-53px;
     width: 300px;
-    height: 500px;
+    height: 400px;
+  }
+  .main-description{
+    height:200px;
   }
   .main-description h2{
     margin-left:-19px;
@@ -81,10 +93,12 @@
   .main-description p{
     margin-left: -19px;
     width:250px;
-    height:300px;
+    height:80px;
   }
   .main-description li{
+    margin-top: -1000px;
     width:280px;
+    height: 200px;
     height: 100px;
     margin:0 auto ;
     padding:0 0;
@@ -92,6 +106,7 @@
   }
   .main-img{
     margin-left: -10px;
+    margin-top:250px;
   }
   .main-img img{
     width:300px;
@@ -123,10 +138,20 @@
         width:300px;
         height: 200px;
     }
+    .decoration h2{
+        margin-left: -80px;
+    }
+    .decoration p{
+        width: 290px;
+        height: 72px;
+        text-align: left;
+        margin-left:1px;
+    }
     .hotel-card{
         width: 300px;
         height: 200px;
         gap: 10px;
+        margin-top: 20px;
     }
     .hotel-card p{
         width: 280px;
@@ -170,6 +195,35 @@
         width: 300px;
         height: 200px;
     }
+    .perfect{
+        flex-direction: column;
+        
+    }
+    .perfect-title{
+        margin-left:1px;
+    }
+    .perfect-image {
+        width:330px;
+        height: 200px;
+    }
+    .perfect-title h2{
+        width: 280px;
+        height: 50px;
+    }
+    .perfect-title p{
+        width: 280px;
+        height: 75px;
+    }
+    .perfect-title li{
+        width: 280px;
+        height: 50px;
+    }
+    .travel{
+        margin-right:-20px;
+        margin-left: 60px;
+        width: 220px;
+        height: 80px;
+    }
     .footer{
        max-width: 300px;
        height:200px;
@@ -184,6 +238,13 @@
     }
     .last{
        
-      margin-left: -330px;
+      margin-left: -33
+      0px;
+    }
+    .main-description p{
+        width:280px;
+    }
+    .paragraph{
+      margin: 0 auto;
     }
 }
