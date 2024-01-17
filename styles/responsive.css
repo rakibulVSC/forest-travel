@@ -92,6 +92,8 @@ nav li{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     display: flex;
+    margin-left: 40px;
+    gap:20px;
 }
 
 
