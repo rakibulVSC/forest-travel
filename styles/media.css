@@ -67,11 +67,123 @@
         width: 390px;
 
     }
-    .main-description h2{
-       margin: 0 ;
+  .main-header{
+    margin-left:-53px;
+    width: 300px;
+    height: 500px;
+  }
+  .main-description h2{
+    margin-left:-19px;
+    font-size: 30px;
+    font-weight: 500px;
+    width:300px;
+  }
+  .main-description p{
+    margin-left: -19px;
+    width:250px;
+    height:300px;
+  }
+  .main-description li{
+    width:280px;
+    height: 100px;
+    margin:0 auto ;
+    padding:0 0;
+    flex-wrap: wrap;
+  }
+  .main-img{
+    margin-left: -10px;
+  }
+  .main-img img{
+    width:300px;
+    height: 300px;
+    margin-top: 10px;
+  }
+  .Destination{
+    margin-top: 400px;
+  }
+  .my-destination h2    {
+    margin-left: -140px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+    .my-destination p{
+        height: 100px;
+        width: 300px;
+        margin-left: -1px;
+    }
+    .grid1 img{
+        width:300px;
+        height: 200px;
+    }
+    .grid2 img{
+        width:300px;
+        height: 200px;
+    }
+    .grid3 img{
+        width:300px;
+        height: 200px;
+    }
+    .hotel-card{
+        width: 300px;
+        height: 200px;
+        gap: 10px;
+    }
+    .hotel-card p{
+        width: 280px;
+        height: 70px;
+    }
+    .world-card{
+        width: 300px;
+        height: 200px;
+        gap: 10px;
+    }
+    .world-card p{
+        width: 280px;
+        height: 70px;
+    }
+    .price-card{
+        width: 300px;
+        height: 200px;
+        gap: 10px;
+        margin-left: -1px;
+    }
+    .price-card p{
+        width: 280px;
+        height: 70px;
+    }
+    .news-description{
+        width: 300px;
+        height: 300px;
+    }
+    .news-description p{
+        width: 280px;
+        height: 70px;
+    }
+    .news-description input{
+        width:280px;
+       
+    }
+    .news-img{
+        margin-top: 40px;
+    }
+    .news-img img{
+        width: 300px;
+        height: 200px;
     }
     .footer{
-       max-width: 390px;
-       height:300px;
+       max-width: 300px;
+       height:200px;
+    }
+    .footer p{
+        width: 280px;
+        height: 80px;
+    }
+    .svg{
+        padding-left: 20%;
+        padding-top: 10px;
+    }
+    .last{
+       
+      margin-left: -330px;
     }
 }
